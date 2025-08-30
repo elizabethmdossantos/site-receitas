@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Pacifico&family=Playwrite+AU+NSW:wght@100..400&display=swap');
+*{
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    color:white;
+    background-image: url("fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    background-color: #331100;
+    color:#f2e6d9;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div0{
+    background-color: #f2e6d9;
+    color: #331100;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align:center;
+    border-radius: 10px;
+}
+.imgtopo{
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    border-radius: 10px;
+}
+ul{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+ol{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+a{
+  color: blue;
+  text-decoration: underline;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
