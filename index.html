@@ -6,13 +6,15 @@
         <title>Meu projeto</title>
     </head>
 <body>
-
-        <div class="div1">
+    <header>
+        <div class="topo">
             <img src="imgtopo.jpg" class="imgtopo" alt="cheesecake">
             <h1>Receitas</h1>
-        </div><br>
+        </div>
+    </header>
 
-        <div class="div2">
+    <main>
+        <div class="menu">
             <ul>
             <li>Home</li>
             <li>Receitas</li>
@@ -20,47 +22,56 @@
             </ul>
         </div><br>
 
-        <div class="div3">
-            <form action="/search" method="GET">
-                <input type="search" id="search-bar" name="q" placeholder="Pesquisar">
-                <button type="submit">Pesquisar</button>
-            </form>
-        </div><br>
-
-        <div class="div4">
-            <div class="div13">
+        <div class="container-receitas">
+            <div class="card-receita">
                 <p><img src="imagem1.jpg" class="img" alt="cheesecake de frutas vermelhas"></p>
+                <div class="card-info">
                 <a href="receita1.html"><h4>Cheesecake de frutas vermelhas</h4></a>
-            </div>
+                </div>
+            </div>  
 
-            <div class="div14">
+            <div class="card-receita">
                 <p><img src="imagem2.jpg" class="img" alt="cupcake de café"></p>
-                <a href="receita2.html"><h4>Cupcake de café com chantilly</h4></a>
+                <div class="card-info">
+                <a href="receita2.html"><h4>Cupcake de café</h4></a>
+                </div>
             </div>
 
-            <div class="div15">
+
+            <div class="card-receita">
                 <p><img src="imagem3.jpg" class="img" alt="cheesecake de limão"></p>
+                <div class="card-info">
                 <a href="receita3.html"><h4>Cheesecake de limão</h4></a>
+                </div>
             </div>
 
-        </div>
-
-        <div class="div5">
-            <div class="div16">
+            <div class="card-receita">
                 <p><img src="imagem4.jpg" class="img" alt="torta de maçã"></p>
+                <div class="card-info">
                 <a href="receita4.html"><h4>Torta de maçã</h4></a>
+                </div>
             </div>
 
-            <div class="div17">
+            <div class="card-receita">
                 <p><img src="imagem5.jpg" class="img" alt="bolo de banana"></p>
+                <div class="card-info">
                 <a href="receita5.html"><h4>Bolo de banana</h4></a>
+                </div>
             </div>
 
-            <div class="div18">
+            <div class="card-receita">
                 <p><img src="imagem6.webp" class="img" alt="cookie"></p>
+                <div class="card-info">
                 <a href="receita6.html"><h4>Cookies com gotas de chocolate</h4></a>
+                </div>
             </div>
         </div>
+
+    </main>
+
+    <footer>
+        <p>Site de receitas desenvolvido por Elizabeth Santos.</p>
+    </footer>
         
 </body>
 </html>

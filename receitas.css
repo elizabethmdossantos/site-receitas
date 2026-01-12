@@ -53,3 +53,12 @@ a:hover {
   color: red;
   text-decoration: none;
 }
+
+button{
+    background-color: #331100;
+    color: #f2e6d9;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
